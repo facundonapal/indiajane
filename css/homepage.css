@@ -1,0 +1,32 @@
+
+#indiajane-carousel-home .ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
+	padding: 0;
+	margin-bottom: 45px;
+}
+
+#indiajane-carousel-home .ps-image img {
+    object-fit: cover;
+    width: 100% !important;
+}
+
+@media screen and (max-width:1023px){
+	#photoslurp-carousel_product .ps-image {
+		width:calc(50% - 16px)!important;
+	}
+}
+@media screen and (min-width: 1024px){
+	#photoslurp-carousel_product .ps-image {
+		width:calc(25% - 16px)!important;
+	}
+	#photoslurp-carousel_product .ps-img-container {
+    	height: auto !important;
+    	padding-top: 100%;
+    	position: relative;
+	}
+	#photoslurp-carousel_product .ps-image img {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}
+

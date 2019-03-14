@@ -1,0 +1,81 @@
+/*=========================
+    LOOKBOOK STYLES
+==========================*/
+
+.title-gallery {
+    text-align: center;
+    margin: 24px auto;
+}
+
+#title-gallery-lookbook {
+    color: rgb(104, 104, 106) !important;
+    font-size: 41.0525px !important;
+    text-align: center;
+    font-family: didot, Verdana, Arial, Helvetica, sans-serif !important;
+    font-weight: 400 !important;
+    margin-top: 20px !important;
+    margin-bottom: 152px !important;
+    text-transform: uppercase !important;
+    width: 100% !important;
+}
+
+
+
+.wrapper-widgets {
+    width: 100% !important;
+    margin: 56px auto!important;
+}
+
+.tabss {
+    text-align: center !important;
+}
+
+.tabss input[type=radio] {
+    display:none;
+}
+
+.tabss label {
+    display: inline-grid;
+    width: 21%;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    margin-bottom: 24px;
+    transition: border-bottom 1s ease;
+    border-bottom: 1px transparent solid;
+}
+
+
+.tabss [id^="tab"]:checked + label {
+    border-bottom: 1px solid #05301a;
+    border-bottom-width: thin; 
+}
+
+.tab-style {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: didot, Verdana, Arial, Helvetica, sans-serif !important;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+ #tab1:checked ~ #tab-content1,
+ #tab2:checked ~ #tab-content2,
+ #tab3:checked ~ #tab-content3,
+ #tab4:checked ~ #tab-content4 {
+    display: block;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+}
+
+.ps-load-more-button {
+    display: none !important;
+}
+
+.ps-info {
+    position: static !important;
+}

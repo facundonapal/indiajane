@@ -289,7 +289,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     color: inherit;
     text-transform: none;
     outline: none;
-    border-radius: 0
+    border-radius: 0;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
@@ -15342,8 +15342,8 @@ body.no-scroll {
 
 .canvas .app-container__inner {
     display: table-cell;
-    height: 100%;
-    position: relative
+    height: 40%;
+    position: relative;
 }
 
 .canvas>header,.canvas>page-header,.canvas>footer,.canvas>page-footer {
